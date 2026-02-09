@@ -27,26 +27,6 @@ pip install pygame
 Run the Game
 python main.py
 
-Project Structure
-.
-├── assets/
-│   ├── ghost_images/
-│   │   ├── blue.png
-│   │   ├── dead.png
-│   │   ├── orange.png
-│   │   ├── pink.png
-│   │   ├── powerup.png
-│   │   └── red.png
-│   └── player_images/
-│       ├── 1.png
-│       ├── 2.png
-│       ├── 3.png
-│       └── 4.png
-├── board.py        # Tile-based level layout
-├── main.py         # Game loop, rendering, input handling, AI logic
-├── venv/           # Python virtual environment (not required to run)
-└── README.md
-
 Technical Highlights
 - Implemented a custom game loop with frame-based animation and event handling
 - Designed modular enemy AI with state-driven behavior (chase, frightened, dead)
